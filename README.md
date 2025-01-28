@@ -9,6 +9,6 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 ### Custom Actor Class: Levitating Actor with Particle Effect
 <img src="screenshots/UE5_CPP_Levitate.gif">
 
-#### <a href="#">Code</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/levitating">Code</a>
 
 In the content browser, drag the Levitating Actor class from the C++ Classes folder into the scene.
