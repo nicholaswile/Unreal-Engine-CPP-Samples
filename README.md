@@ -12,3 +12,10 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 #### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/levitating">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-cpp-quick-start">Tutorial</a>
 
 In the content browser, drag the Levitating Actor class from the C++ Classes folder into the scene.
+
+### Custom Pawn Class: Player Input
+<img src="screenshots/UE5_PlayerInput.gif">
+
+#### <a href="#">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-player-input-in-unreal-engine-cpp">Tutorial</a>
+
+In the project settings, create input axis mappings for MoveX and MoveY, and input action mappings for Grow. This program binds those actions to a custom player pawn. Set a mesh such as a cylinder so the player is visible.
