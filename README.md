@@ -6,6 +6,13 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 ## Samples
 
+### Custom Actor Class: Transitioning Cameras
+<img src="screenshots/UE5_CamControl.gif">
+
+#### <a href="#">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-implementing-automatic-camera-control-in-unreal-engine-cpp">Tutorial</a>
+
+Add an instance of the custom class to the scene, then populate the struct with at least one camera in the scene. For each camera in the structure, specify a length of time for its transition duration.
+
 ### Custom Actor Class: Levitating Actor with Particle Effect
 <img src="screenshots/UE5_CPP_Levitate.gif">
 
