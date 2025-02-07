@@ -1,5 +1,5 @@
 # Unreal-Engine-5-CPP-Samples
-C++ samples for Unreal Engine 5 development. Includes my implementation of the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-5-documentation">Unreal Engine 5.5 documentation</a> programming tutorials, because I felt like there was a lack of resources available for developers who already are familiar with C++, and are looking for examples of how to use it in the context of Unreal. 
+C++ samples for Unreal Engine 5 development. Includes my own implementations and extensions of the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-5-documentation">Unreal Engine 5.5 documentation</a> programming demos, all in one place, because I felt like there was a lack of resources available for developers who already are familiar with C++, and are looking for examples of how to use it in the context of Unreal. 
 
 ### Using these samples
 Copy the desired header and C++ files into your UE5 project, rebuild the project, then open the project in the editor. The desired functionality should be added to the project. Each sample may require an initial scene setup before use.
@@ -10,7 +10,7 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 <img src="screenshots/UE_ThirdPersonCam.gif">
 
-#### <a href="#">Code</a> | <a href="#">Docs</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/thirdpersoncam">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-player-controlled-cameras-in-unreal-engine-cpp">Docs</a>
 
 | Controls | Actions |
 |:---|:---|
