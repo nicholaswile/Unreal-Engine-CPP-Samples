@@ -6,6 +6,25 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 ## Samples
 
+### Custom Character Class: Animated FPS Controller
+
+<img src="screenshots/UE_FPSCam.gif">
+
+#### <a href="#">Code</a> | <a href="#">Docs</a>
+
+Gun not included. You'll have to setup your own animations through Blueprint state machines. Animation and model assets can be found in the Docs. But all the C++ files needed to implement this are included in my repo. 
+
+|Controls|Actions|
+|:----|:----|
+|`W`| Forward |
+|`S`| Backward |
+|`A`| Left |
+|`D`| Right |
+|`Mouse X`| Camera Yaw |
+|`Mouse Y`| Camera Pitch|
+|`Shift/RMB`| Camera Zoom|
+|`Space/LMB`| Shoot|
+
 ### Custom Pawn Class: Third Person Camera Controller
 
 <img src="screenshots/UE_ThirdPersonCam.gif">
@@ -44,3 +63,8 @@ In the content browser, drag the Levitating Actor class from the C++ Classes fol
 #### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/playerinput">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-player-input-in-unreal-engine-cpp">Docs</a>
 
 In the project settings, create input axis mappings for MoveX and MoveY, and input action mappings for Grow. This program binds those actions to a custom player pawn. Set a mesh such as a cylinder so the player is visible.
+
+<!--
+Makoto Model:
+"Makoto Yuki (Con Arte Lineal)" (https://skfb.ly/prtHQ) by 雨宮レン is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). DeviantArt: https://www.deviantart.com/ultimatemmd/art/Yuki-Makoto-Persona-3-Reload-MMD-DL-1017926733. Originally dumped by REALMadMax1960: https://x.com/REALMadMax1960.
+-->
