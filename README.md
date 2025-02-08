@@ -10,7 +10,7 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 <img src="screenshots/UE_FPSCam.gif">
 
-#### <a href="#">Code</a> | <a href="#">Docs</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/fpscontrol">Code</a>
 
 Gun not included. You'll have to setup your own animations through Blueprint state machines. Animation and model assets can be found in the Docs. But all the C++ files needed to implement this are included in my repo. 
 
@@ -29,7 +29,7 @@ Gun not included. You'll have to setup your own animations through Blueprint sta
 
 <img src="screenshots/UE_ThirdPersonCam.gif">
 
-#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/thirdpersoncam">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-player-controlled-cameras-in-unreal-engine-cpp">Docs</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/thirdpersoncam">Code</a>
 
 | Controls | Actions |
 |:---|:---|
@@ -46,24 +46,26 @@ You must bind axes and actions in the project input settings corresponding to ea
 ### Custom Actor Class: Transitioning Cameras
 <img src="screenshots/UE5_CamControl.gif">
 
-#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/cameratransitions">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-implementing-automatic-camera-control-in-unreal-engine-cpp">Docs</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/cameratransitions">Code</a> 
 
 Add an instance of the custom class to the scene, then populate the struct with at least one camera in the scene. For each camera in the structure, specify a length of time for its transition duration.
 
 ### Custom Actor Class: Levitating Actor with Particle Effect
 <img src="screenshots/UE5_CPP_Levitate.gif">
 
-#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/levitating">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-cpp-quick-start">Docs</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/levitating">Code</a>
 
 In the content browser, drag the Levitating Actor class from the C++ Classes folder into the scene.
 
 ### Custom Pawn Class: Player Input (Static Camera)
 <img src="screenshots/UE5_PlayerInput.gif">
 
-#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/playerinput">Code</a> | <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/quick-start-guide-to-player-input-in-unreal-engine-cpp">Docs</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/playerinput">Code</a>
 
 In the project settings, create input axis mappings for MoveX and MoveY, and input action mappings for Grow. This program binds those actions to a custom player pawn. Set a mesh such as a cylinder so the player is visible.
 
+### References
+* <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-cpp-programming-tutorials">Unreal Engine 5 C++ Documentation</a>. Each of my sample implementations is based off of different gameplay features discucsed in that section of the docs.
 <!--
 Makoto Model:
 "Makoto Yuki (Con Arte Lineal)" (https://skfb.ly/prtHQ) by 雨宮レン is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). DeviantArt: https://www.deviantart.com/ultimatemmd/art/Yuki-Makoto-Persona-3-Reload-MMD-DL-1017926733. Originally dumped by REALMadMax1960: https://x.com/REALMadMax1960.
