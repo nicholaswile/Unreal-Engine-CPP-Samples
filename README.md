@@ -6,6 +6,29 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 ## Samples
 
+### Custom Character Class: Animated Third Person Character
+
+<img src="screenshots/UE_CharacterAnimation.gif">
+
+#### <a href="#">Code</a>
+
+You'll have to setup animations using the Blueprint state machines and blend shapes. Animation and model assets can be found from the <a href="https://www.fab.com/listings/98ff449d-79db-4f54-9303-75486c4fb9d9">Epic Games asset library</a> for free. 
+
+<img src="screenshots/UE_BlendShapes.gif">
+
+The locomotion blend shape for the character animations.
+
+|Controls|Actions|
+|:----|:----|
+|`W`| Forward |
+|`S`| Backward |
+|`A`| Left |
+|`D`| Right |
+|`Mouse X`| Camera Yaw |
+|`Mouse Y`| Camera Pitch|
+|`Shift`| Sprint|
+|`Ctrl`| Crouch|
+
 ### Custom Character Class: Animated FPS Controller
 
 <img src="screenshots/UE_FPSCam.gif">
