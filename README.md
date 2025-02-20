@@ -1,10 +1,20 @@
-# Unreal-Engine-5-CPP-Samples
-C++ samples for Unreal Engine 5 development. Includes my own implementations and extensions of the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-5-documentation">Unreal Engine 5.5 documentation</a> programming demos, all in one place, because I felt like there was a lack of resources available for developers who already are familiar with C++, and are looking for examples of how to use it in the context of Unreal. 
+# Unreal-Engine-CPP-Samples
+C++ samples for Unreal Engine 4.27 and 5+ development. Includes my own implementations and extensions of the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-5-5-documentation">Unreal Engine 5.5 documentation</a> programming demos, all in one place, because I felt like there was a lack of resources available for developers who already are familiar with C++, and are looking for examples of how to use it in the context of Unreal. 
 
 ### Using these samples
 Copy the desired header and C++ files into your UE5 project, rebuild the project, then open the project in the editor. The desired functionality should be added to the project. Each sample may require an initial scene setup before use.
 
 ## Samples
+
+### Multiplayer Networking: Replication / RPC
+
+<img src="screenshots/UE_Multiplayer.gif">
+
+This works in both Unreal Engine 4.27 and 5+. I tested using UE4 due to it's faster performance on my laptop. The code extends the third person character class to allow replication of projectile functionality and player health. To test this, you may start with a third person framework and modify the following settings:
+* Number of players: 2
+* Net mode: Play as a listen server
+
+<img src="screenshots/UE_multiplayersettings.png">
 
 ### Custom Character Class: Animated Third Person Character
 
