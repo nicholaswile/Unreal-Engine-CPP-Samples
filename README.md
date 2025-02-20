@@ -10,6 +10,8 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 <img src="screenshots/UE_Multiplayer.gif">
 
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-CPP-Samples/tree/main/multiplayernetworking">Code</a>
+
 This works in both Unreal Engine 4.27 and 5+. I tested using UE4 due to it's faster performance on my laptop. The code extends the third person character class to allow replication of projectile functionality and player health. To test this, you may start with a third person framework and modify the following settings:
 * Number of players: 2
 * Net mode: Play as a listen server
