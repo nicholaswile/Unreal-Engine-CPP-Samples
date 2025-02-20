@@ -10,7 +10,7 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 <img src="screenshots/UE_CharacterAnimation.gif">
 
-#### <a href="#">Code</a>
+#### <a href="https://github.com/nicholaswile/Unreal-Engine-5-CPP-Samples/tree/main/thirdpersoncharacter">Code</a>
 
 You'll have to setup animations using the Blueprint state machines and blend shapes. Animation and model assets can be found from the <a href="https://www.fab.com/listings/98ff449d-79db-4f54-9303-75486c4fb9d9">Epic Games asset library</a> for free. 
 
