@@ -12,7 +12,9 @@ Copy the desired header and C++ files into your UE5 project, rebuild the project
 
 #### <a href="https://github.com/nicholaswile/Unreal-Engine-CPP-Samples/tree/main/multiplayernetworking">Code</a>
 
-This works in both Unreal Engine 4.27 and 5+. I tested using UE4 due to it's faster performance on my laptop. The code extends the third person character class to allow replication of projectile functionality and player health. To test this, you may start with a third person framework and modify the following settings:
+This works in both Unreal Engine 4.27 and 5+. I tested using UE4 due to it's faster performance on my laptop. The code extends the third person character class to allow replication of projectile functionality and player health. The left display is the server and the right is the client that connects to it. This code uses remote procedure calls for certain functions, meaning when the client attempts to call a function, it is enqueued and then dequeued once the server receives it. The server calls the function, then notifies the clients. This is how multiplayer is synchronized.
+
+To test this, you may start with a third person framework and modify the following settings:
 * Number of players: 2
 * Net mode: Play as a listen server
 
