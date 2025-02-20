@@ -1,5 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-// Extended by Nicholas Wile 2025 - Freely use this code for any purpose.
+// Copyright Epic Games, Inc. All Rights Reserved. | Extended by Nicholas Wile 2025 - Freely use this code for any purpose.
 
 #pragma once
 
